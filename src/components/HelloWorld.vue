@@ -2,8 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p class="pb-12">Styletest</p>
-
-    <ZButton>Ein Button aus der ÚI-Lib</ZButton>
+    <ZButton>Schockschwerenot</ZButton>
   </div>
 </template>
 
@@ -11,6 +10,7 @@
 import { defineComponent } from "vue";
 import { ZButton } from "de-zurich-z21b-ui-library";
 export default defineComponent({
+  components: { ZButton },
   name: "HelloWorld",
   props: {
     msg: String,

@@ -13,8 +13,7 @@
   ],
   "dependencies": {
     "core-js": "^3.8.3",
-    "de-zurich-z21b-ui-library": "../../de-zurich-z21b-ui-library/de-zurich-z21b-ui-library-0.1.0.tgz",
-    "remove-files-webpack-plugin": "^1.5.0",
+    "de-zurich-z21b-ui-library": "file:../../de-zurich-z21b-ui-library/de-zurich-z21b-ui-library-0.1.0.tgz",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
